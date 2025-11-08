@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="parent-Div">
+        
+        <div class="title">
+            <h3><span>Random Password</span><br>Generator in JavaScript</h3>
+        </div>
+
+
+
+        <div class="password-Section-parent">
+
+            <div class="Password-Generator">
+                    Password Generator
+            </div>
+
+
+            <div class="password-length-div">
+                <label for="lengthPass" class="password-length">Password Length :</label><br>
+                <input type="number" placeholder="type your password length" class="input-section" id="lengthPass" min="1" value="">
+            </div>
+
+
+            <div class="include-section-parent">
+                <h3>Include Uppercase Letters</h3>
+                <input type="checkbox" >
+
+                <h3>Include Numbers</h3>
+                <input type="checkbox">
+
+                <h3>Include Special Characters</h3>
+                <input type="checkbox">
+            </div>
+
+
+            <button id="passwordBtn" onclick="generatePassword()"> Generate Password</button>
+
+
+            <h2 class="yourPass">Password :</h2>
+
+
+            <div id="showPassword">
+                JKafjdd454&%$#
+            </div>
+
+
+            <button id="copyBtn">Copy Password</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
