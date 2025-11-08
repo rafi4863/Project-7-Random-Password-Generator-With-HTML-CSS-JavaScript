@@ -138,3 +138,155 @@ span{
 #copyBtn:hover{
     background-color: rgb(9, 126, 5);
 }
+
+
+
+
+
+
+
+/* ===== Responsive Design Section ===== */
+
+/* Large Tablets / Medium Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .parent-Div {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 50px;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .title {
+        width: 90%;
+        height: auto;
+        font-size: 26px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .password-Section-parent {
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+        box-shadow: 0 0 80px rgba(240, 5, 5, 0.5);
+    }
+
+    .password-length-div,
+    .include-section-parent {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #passwordBtn,
+    #copyBtn {
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .yourPass {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #showPassword {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+/* Small Tablets / Large Phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .Password-Generator {
+        font-size: 24px;
+    }
+
+    .password-length {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .input-section {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .include-section-parent h3 {
+        font-size: 18px;
+    }
+
+    #passwordBtn,
+    #copyBtn {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #showPassword {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .parent-Div {
+        width: 95%;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .Password-Generator {
+        font-size: 22px;
+    }
+
+    .password-Section-parent {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .password-length-div {
+        width: 100%;
+    }
+
+    .input-section {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .include-section-parent h3 {
+        font-size: 16px;
+    }
+
+    #passwordBtn,
+    #copyBtn {
+        width: 100%;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .yourPass {
+        font-size: 20px;
+    }
+
+    #showPassword {
+        width: 100%;
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+}
