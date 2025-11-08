@@ -144,7 +144,6 @@ span{
 
 
 
-
 /* ===== Responsive Design Section ===== */
 
 /* Large Tablets / Medium Screens (max-width: 1024px) */
@@ -171,30 +170,38 @@ span{
         height: auto;
         padding: 20px 0;
         box-shadow: 0 0 80px rgba(240, 5, 5, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .password-length-div,
     .include-section-parent {
         width: 90%;
-        margin-left: 0;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    .input-section {
+        width: 250px; /* নির্দিষ্ট প্রস্থ */
+    }
+
+    #showPassword {
+        width: 250px; /* নির্দিষ্ট প্রস্থ */
+        margin: 10px auto;
+        text-align: center;
     }
 
     #passwordBtn,
     #copyBtn {
-        margin-left: 0;
+        width: 200px; /* নির্দিষ্ট প্রস্থ */
+        margin: 15px auto;
         display: block;
-        margin: 20px auto;
     }
 
     .yourPass {
-        margin-left: 0;
         text-align: center;
-    }
-
-    #showPassword {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
+        margin: 15px 0;
     }
 }
 
@@ -211,30 +218,29 @@ span{
 
     .password-length {
         font-size: 18px;
-        margin-left: 0;
-        text-align: center;
+        margin: 0;
         display: block;
+        text-align: center;
     }
 
     .input-section {
-        width: 100%;
-        margin-top: 10px;
-        
+        width: 230px;
     }
 
     .include-section-parent h3 {
         font-size: 18px;
     }
 
-    #passwordBtn,
-    #copyBtn {
-        width: 80%;
-        font-size: 15px;
-    }
-
     #showPassword {
+        width: 230px;
         font-size: 18px;
         padding: 10px;
+    }
+
+    #passwordBtn,
+    #copyBtn {
+        width: 200px;
+        font-size: 15px;
     }
 }
 
@@ -258,14 +264,16 @@ span{
     .password-Section-parent {
         width: 100%;
         padding: 15px 0;
+        align-items: center;
     }
 
     .password-length-div {
         width: 100%;
+        text-align: center;
     }
 
     .input-section {
-        width: 100%;
+        width: 200px;
         font-size: 14px;
     }
 
@@ -273,20 +281,22 @@ span{
         font-size: 16px;
     }
 
+    #showPassword {
+        width: 220px;
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+
     #passwordBtn,
     #copyBtn {
-        width: 100%;
+        width: 180px;
         font-size: 14px;
-        margin: 10px 0;
+        margin: 10px auto;
+        display: block;
     }
 
     .yourPass {
         font-size: 20px;
-    }
-
-    #showPassword {
-        width: 100%;
-        font-size: 16px;
-        word-wrap: break-word;
+        text-align: center;
     }
 }
